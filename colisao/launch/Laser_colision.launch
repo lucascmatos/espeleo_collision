@@ -1,0 +1,7 @@
+<launch>
+	 
+	<rosparam file="$(find colisao)/Config/colision_configuration.yaml" />
+	<node pkg = "colisao" type="LaserScan.py" name="dados_laser">
+	</node>
+
+</launch>

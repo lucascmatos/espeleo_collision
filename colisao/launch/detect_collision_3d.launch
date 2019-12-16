@@ -1,0 +1,14 @@
+<launch>
+	<rosparam file="$(find colisao)/Config/colision_configuration.yaml" />
+	<node pkg="point_cloud_converter" name="point_cloud_converter" type="point_cloud_converter_node" >
+		<!--
+		<remap from="points_in" to="velodyne_test"/>
+		<remap from="points2_out" to="velodyne_points" />
+		-->
+		<remap from="points2_in" to="/os1_cloud_node/points"/>
+		<remap from="points_out" to="/velodyne_points" />
+	</node>
+	<node pkg = "colisao" type="3dcollision.py" name="detect_colision">
+	</node>
+
+</launch>
