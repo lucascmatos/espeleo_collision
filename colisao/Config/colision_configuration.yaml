@@ -4,7 +4,7 @@
 model: "3D"
 a : 30 #Angulo considerado como limite para colisao              |
 d_min : 0.55 #distancia minima de colisao                        |
-d_max : 0.90 #distancia max de colisao                           |     
+d_max : 1.2 #distancia max de colisao                           |     
 #                                                                |
 #                                                                |
 #-----------------------------------------------------------------
