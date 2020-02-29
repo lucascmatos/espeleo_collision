@@ -3,8 +3,8 @@
 #-----------------------------------------------------------------
 model: "3D"
 a : 30 #Angulo considerado como limite para colisao              |
-d_min : 0.55 #distancia minima de colisao                        |
-d_max : 1.2 #distancia max de colisao                           |     
+d_min : 0.55 #distancia usada para filtrar dados do laser        |
+d_max : 1.2 #distancia max de colisao                            |     
 #                                                                |
 #                                                                |
 #-----------------------------------------------------------------
@@ -12,7 +12,7 @@ d_max : 1.2 #distancia max de colisao                           |
 #Parametros colisao em 2d:                                                   |
 #-----------------------------------------------------------------
 #model: "2D"
-#d_min : 0.03 #distancia minima de colisao                        |
+#d_min : 0.03 #distancia usada para filtrar dados do laser       |
 #d_max : 1.0 #distancia max de colisao                           |     
 #                                                                |
 #                                                                |
