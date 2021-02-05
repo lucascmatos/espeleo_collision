@@ -1,0 +1,20 @@
+#-----------------------------------------------------------------
+#Parametros colisao em 3d:                                                   |
+#-----------------------------------------------------------------
+model: "3D"
+theta_limit : 30 #Angulo considerado como limite para colisao              |
+d2D_red: 0.40 #distancia usada para filtrar ruido                 |
+d2D_yellow : 1.00 #distancia max de colisao                           |
+pairs_of_points : 3 # pares de pontos para sinalizar como risco de colisao
+#                                                                |
+#                                                                |
+#-----------------------------------------------------------------
+#-----------------------------------------------------------------
+#Parametros colisao em 2d:                                                   |
+#-----------------------------------------------------------------
+#model: "2D"
+#d_min : 0.03 #distancia usada para filtrar dados do laser       |
+#d_max : 1.0 #distancia max de colisao                           |
+#                                                                |
+#                                                                |
+#-----------------------------------------------------------------
